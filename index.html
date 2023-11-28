@@ -1,16 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <title>MAS Search</title>
 </head>
 <body>
     <form id="form" action="">
-        <input type="text" name="query" id="">
-        <input type="submit" value="Search">
+        <h1>MAS Search</h1>
+        <div class="inputParent">
+            <input type="text" placeholder='Zoekterm' name="query" id="query">
+            <input type="submit" value="Zoek">
+        </div>
     </form>
-    <div>
+    <div class="history">
+        <h2>Geschiedenis:</h2>
         <ul id="list"></ul>
     </div>
 </body>
